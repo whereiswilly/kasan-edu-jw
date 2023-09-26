@@ -1,38 +1,12 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+# 버그 발견
+선물하기를 누르면 선물 금액만큼 카카오머니가 추가되는 버그가 발견되었습니다.
 
----
+# 버그가 발생되는 과정
+1. 선물하기 페이지에 접속합니다.
+2. 선물할 상품을 클릭합니다.
+3. 수신자와 금액을 입력합니다.
+4. 선물하기 버튼을 누릅니다.
+5. 카카오톡으로 선물 완료 메세지와 함께 카카오머니 수락 메세지가 도착합니다.
 
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+# 예상되는 원인
+누군가가 카카오페이쪽 코드를 건드렸습니다.
